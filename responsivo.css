@@ -1,0 +1,68 @@
+/* RESPONSIVO 868px */
+
+@media screen and (max-width: 868px) {
+	.containerlogin .content .forma {
+		padding: 0;
+	}
+
+	.containerlogin .imagem {
+		display: none;
+	}
+
+	.containerlogin .content {
+		width: 100%;
+	}
+
+	.containerlogin .content .forma {
+		width: 100%;
+
+		background: white;
+		
+		padding: 40px;
+		margin: 50px;
+	}
+
+	.containerlogin .content .forma h3 {
+		margin: 30px 0 10px;
+	}
+}
+
+
+@media screen and (max-width: 450px) {
+	.containerlogin .content .forma .lembrar {
+		flex-wrap: wrap;
+	}
+
+
+
+	.containerlogin .content .forma .lembrar a {
+		margin-top: 20px;
+	}
+
+	.content .forma {
+	width: 80%;
+	}
+}
+
+@media screen and (max-width: 425px) {
+	.content .forma .input p {
+    gap: 0px;
+}
+
+.containerlogin .content .forma {
+    padding: 0;
+}
+}
+
+@media screen and (max-width: 375px) {
+	.containerlogin .content .forma {
+    padding: 0;
+}
+}
+
+@media screen and (max-width: 320px) {
+	.containerlogin .content .forma {
+    padding: 0;
+}
+}
+
